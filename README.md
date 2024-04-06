@@ -1,4 +1,4 @@
-# Projeto-5-Analise-Bancaria
+# Projeto-5-Analise-Bancária
 
  O objetivo desta análise é tentar descobrir as principais causas que levaram um número expressivo de clientes à cancelarem seus cartões de crédito.
 #
@@ -24,3 +24,17 @@ Conclusão da análise a partir da plotagem dos gráficos:
 - Clientes que possuem transações baixas tem uma alta taxa de cancelamento do cartão.
 - Clientes que não utilizavam o cartão tenderam ao seu cancelamento.
 - Clientes que entraram em contato com o SAC mais de 3 vezes tenderam a cancelar o cartão (o que mostra a insatisfação com o serviço)
+
+#
+Recursos usados no código:
+
+- Pacote os - para recursos de sistema operacional;
+- Pacote pandas - para manipulção de dataframes;
+- Pacote plotly - para geração de gráfico;
+- Método de leitura de arquivo read( );
+- Método drop( ) para retirada de dados faltantes;
+- Método info( ) para verificar dados da base de dados;
+- Método dropna( ) para retirada de linhas com algum valor nulo;
+- Método round( ) para arredondamento de valores nas células do dataframe;
+- Método value_counts para contagem de valores;
+- Loop for.
